@@ -5,17 +5,12 @@
 }
 
 body {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-image: linear-gradient(to right, #91EAE4, #86A8E7);
-    background-repeat: no-repeat;
 }
 
 #container {
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,11 +82,12 @@ h2 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    min-width: 30rem;
 }
 
 .copy-gradientColorCode {
     position: absolute;
-    left: 0.2rem;
+    left: 0.1rem;
     top: 0.1rem;
     background-color: transparent;
     padding:10px;
